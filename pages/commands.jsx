@@ -3,32 +3,32 @@ import Link from "next/link";
 
 export default function Commands() {
 const commands = [
-  "/autoplay",
-  "/back",
-  "/statistic",
-  "/channel",
-  "/clear",
-  "/dj",
-  "/filter",
+  "!money",
+  "!çalış",
+  "T cf",
+  "/avatar",
+  "!mute",
+  "/command",
+  "!gpt",
   "/help",
-  "/language",
-  "/loop",
-  "/nowplaying",
-  "/pause",
-  "/ping",
-  "/play",
-  "/playlist",
-  "/queue",
-  "/resume",
-  "/save",
-  "/search",
-  "/seek",
-  "/servers",
-  "/shuffle",
-  "/skip",
-  "/stop",
-  "/time",
-  "/volume"
+  "!slot",
+  "!Para-gönder",
+  "!dolar",
+  "!ban",
+  "!unban",
+  "!tüm-roll-al",
+  "!macera",
+  "!al-not",
+  "!notlarım",
+  "!pingim",
+  "!havadurumu",
+  "!banka-kartım",
+  "!",
+  "!",
+  "/",
+  "/",
+  "/",
+  "/"
 ];
 
   return (
@@ -42,7 +42,7 @@ const commands = [
          Bot Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the MusicMaker Bot.
+        You can get information about the commands of the Hyuga 2.0 Bot.
         </p>
 
         <div>
@@ -89,14 +89,14 @@ const commands = [
 
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-  <Link href={"https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=applications.commands%20bot"}>
+  <Link href={"https://discord.com/oauth2/authorize?client_id=1331301365905096776&scope=bot%20applications.commands&permissions=0"}>
   <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Invite MusicMaker</a>
+Invite Hyuga 2.0</a>
   </Link>
 
   <div className="py-10"></div>
   
-  <Link href={"https://discord.gg/ACJQzJuckW"}>
+  <Link href={"https://discord.gg/b2EjYVwh"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
 Support Server</a>
   </Link>
@@ -105,7 +105,7 @@ Support Server</a>
   
   <Link href={"https://top.gg/bot/774043716797071371/vote"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Vote MusicMaker</a>
+Vote Hyuga 2.0r</a>
   </Link>
 </div>
 
